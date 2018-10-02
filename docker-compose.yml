@@ -1,0 +1,61 @@
+version: "2"
+services:
+  app:
+    image: busybox
+    container_name: gs_app
+    depends_on:
+      - "nginx"
+
+  data:
+    image: busybox
+    container_name: gs_data
+    volumes:
+      - .:/var/www
+
+  nginx:
+    image: webcodium/nginx:laravel
+    container_name: gs_nginx
+    volumes_from:
+      - data
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      NGINX_HOST: gs.local
+      NGINX_HTTP_PORT: 80
+      NGINX_HTTPS_PORT: 443
+      NGINX_CLIENT_MAX_BODY_SIZE: 10m
+      NGINX_VHOST_ROOT_DIRECTORY: /var/www/web
+      FASTCGI_URL: php
+    depends_on:
+      - "php"
+
+  php:
+    image: webcodium/php:php7.2
+    container_name: gs_php
+    volumes_from:
+      - data
+    depends_on:
+      - "db"
+    working_dir: /var/www
+    environment:
+      DB_DRIVER: pdo_mysql
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_NAME: gs
+      DB_USER: gs
+      DB_PASSWORD: gs
+    command: >
+            /bin/sh -c "rm -f /etc/php/7.2/mods-available/opcache.ini 
+            && /usr/sbin/php-fpm7.2 -F -R"
+
+  db:
+    image: mysql:5.7.19
+    container_name: gs_db
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: gs
+      MYSQL_PASSWORD: gs
+      MYSQL_DATABASE: gs
