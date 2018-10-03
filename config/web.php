@@ -12,6 +12,14 @@ $config = [
         '@npm'   => '@vendor/npm-asset',
     ],
     'components' => [
+        'as beforeRequest' => [
+            'class' => 'yii\filters\AccessControl',
+            'rules' => [
+                [
+                    'allow' => true,
+                ],
+            ],
+        ],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'osdfj873hbc6ttguiwhd8s77u1jlm78x7tcgusu67',
@@ -46,6 +54,9 @@ $config = [
             ],
         ],
         'db' => $db,
+        'UserRepository' => [
+            'class' => 'app\models\User',
+        ],
         'urlManager' => [
             'enablePrettyUrl' => true,
             //'enableStrictParsing' => true,

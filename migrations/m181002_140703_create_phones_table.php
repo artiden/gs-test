@@ -6,7 +6,7 @@ use yii\db\Migration;
  * Handles the creation of table `phones`.
  * Has foreign keys to the tables:
  *
- * - `users`
+ * - `persons`
  */
 class m181002_140703_create_phones_table extends Migration
 {
@@ -17,23 +17,23 @@ class m181002_140703_create_phones_table extends Migration
     {
         $this->createTable('phones', [
             'id' => $this->primaryKey(),
-            'user_id' => $this->integer()->notnull(),
-            'phone' => $this->string()->notNull(),
+            'person_id' => $this->integer(),
+            'value' => $this->string()->notNull(),
         ]);
 
-        // creates index for column `user_id`
+        // creates index for column `person_id`
         $this->createIndex(
-            'idx-phones-user_id',
+            'idx-phones-person_id',
             'phones',
-            'user_id'
+            'person_id'
         );
 
         // add foreign key for table `users`
         $this->addForeignKey(
-            'fk-phones-user_id',
+            'fk-phones-person_id',
             'phones',
-            'user_id',
-            'users',
+            'person_id',
+            'persons',
             'id',
             'CASCADE'
         );
@@ -44,15 +44,15 @@ class m181002_140703_create_phones_table extends Migration
      */
     public function safeDown()
     {
-        // drops foreign key for table `users`
+        // drops foreign key for table `persons`
         $this->dropForeignKey(
-            'fk-phones-user_id',
+            'fk-phones-person_id',
             'phones'
         );
 
-        // drops index for column `user_id`
+        // drops index for column `person_id`
         $this->dropIndex(
-            'idx-phones-user_id',
+            'idx-phones-person_id',
             'phones'
         );
 

@@ -2,50 +2,31 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'My Yii Application';
+$this->title = 'Denys Revega. Genesis test task';
 ?>
 <div class="site-index">
 
     <div class="jumbotron">
         <h1>Congratulations!</h1>
 
-        <p class="lead">You have successfully created your Yii-powered application.</p>
-
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
+        <p class="lead">You successfully configured an application. Now you can visit any links to see another parts :-)</p>
     </div>
 
     <div class="body-content">
 
         <div class="row">
             <div class="col-lg-4">
-                <h2>Heading</h2>
+                <h2>Описание</h2>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+                <p>Поскольку нанее не работал с данным фреймворком, некоторые решения заняли больше времени, чем я планировал. А, учитывая, что для выполнения имел в распоряжении только вечерние несколько часов, понять всю суть не получилось.</p>
+                <p>То, с чем не разобрался:
+                <ul>
+                <li>Отложенная запись в БД. Гуглил, читал. Из того, что нашел - INSERT DELAYED, но он уже как давно деприкейтед. Использование же чего-то типа Мемкешь/Редис - имел опыт сохранять там данные для вставки. В итоге получилось больше проблем, чем выиграша)</li>
+                <li>Вывод планировал сделать при помощи Реакт, но не хватило времени.</li>
+                <li>Для поиска, в реальном проекте, использовал бы, скорее всего, Sphinx. Имел опыт работы с ЭластикСерч, не понравилось, что нужно формировать индекс самостоятельно. Ну на то время, по крайней мере. Вожможно, сейчас уже изменилось что-то(?).</li>
+                </ul></p>
+                <p>Вроде все. Жду на фитбек)</p>
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
             </div>
         </div>
 
