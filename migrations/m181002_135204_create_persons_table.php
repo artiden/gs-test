@@ -14,8 +14,8 @@ class m181002_135204_create_persons_table extends Migration
     {
         $this->createTable('persons', [
             'id' => $this->primaryKey(),
-            'first_name' => $this->string()->notNull(),
-            'last_name' => $this->string()->notNull(),
+            'firstName' => $this->string()->notNull(),
+            'lastName' => $this->string()->notNull(),
         ]);
     }
 

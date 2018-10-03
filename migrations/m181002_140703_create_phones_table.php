@@ -17,22 +17,22 @@ class m181002_140703_create_phones_table extends Migration
     {
         $this->createTable('phones', [
             'id' => $this->primaryKey(),
-            'person_id' => $this->integer(),
+            'personId' => $this->integer(),
             'value' => $this->string()->notNull(),
         ]);
 
-        // creates index for column `person_id`
+        // creates index for column `personId`
         $this->createIndex(
-            'idx-phones-person_id',
+            'idx-phones-personId',
             'phones',
-            'person_id'
+            'personId'
         );
 
-        // add foreign key for table `users`
+        // add foreign key for table `persons`
         $this->addForeignKey(
-            'fk-phones-person_id',
+            'fk-phones-personId',
             'phones',
-            'person_id',
+            'personId',
             'persons',
             'id',
             'CASCADE'
@@ -46,13 +46,13 @@ class m181002_140703_create_phones_table extends Migration
     {
         // drops foreign key for table `persons`
         $this->dropForeignKey(
-            'fk-phones-person_id',
+            'fk-phones-personId',
             'phones'
         );
 
-        // drops index for column `person_id`
+        // drops index for column `personId`
         $this->dropIndex(
-            'idx-phones-person_id',
+            'idx-phones-personId',
             'phones'
         );
 

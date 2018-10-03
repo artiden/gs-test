@@ -2,26 +2,29 @@
 
 namespace app\models;
 
-use yii\db\ActiveRecord;
-use app\models\Person;
+use yii\db\ActiveRecord;use app\models\Person;
 
 class Phone extends ActiveRecord
 {
-    /**
-     * The entity id
-     * @var int
-     */
-    public $id;
-    /**
-     * The phone value
-     * @var string
-     */
-    public $value;
 
     public function getUser()
     {
         return $this->hasOne(Person::className(), [
-            'id' => 'person_id',
+            'id' => 'personId',
         ]);
+    }
+
+    public static function tableName()
+    {
+        return '{{phones}}';
+    }
+
+    public function rules()
+    {
+        return [
+            ['value', 'required'],
+            ['value', 'string', 'max' => 255],
+            ['value', 'trim'],
+        ];
     }
 }
