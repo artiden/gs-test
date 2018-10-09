@@ -8,7 +8,7 @@
 - docker exec -it gs_php bash
 - composer install
 - php yii migrate
-- done.
+- php yii queue/listen
 
 # using
 

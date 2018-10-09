@@ -2,6 +2,8 @@
 
 $params = require __DIR__ . '/params.php';
 $db = require __DIR__ . '/db.php';
+$redis = require __DIR__ . '/redis.php';
+$queue = require __DIR__ . '/queue.php';
 
 $config = [
     'id' => 'basic-console',
@@ -27,16 +29,9 @@ $config = [
                 ],
             ],
         ],
-        'redis' => [
-            'class' => \yii\redis\Connection::class,
-            'hostname' => 'redis',
-            'retries' => 1,
-        ],
-        'queue' => [
-            'class' => \yii\queue\redis\Queue::class,
-            'redis' => 'redis',
-            'channel' => 'queue',
-        ],
+        //Split configuration for DRY principle
+        'redis' => $redis,
+        'queue' => $queue,
         'db' => $db,
     ],
     'params' => $params,
