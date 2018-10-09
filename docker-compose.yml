@@ -31,23 +31,14 @@ services:
       - "php"
 
   php:
-    image: webcodium/php:php7.2
+    image: php:7.2-fpm
     container_name: gs_php
     volumes_from:
       - data
     depends_on:
       - "db"
+      - "redis"
     working_dir: /var/www
-    environment:
-      DB_DRIVER: pdo_mysql
-      DB_HOST: db
-      DB_PORT: 3306
-      DB_NAME: gs
-      DB_USER: gs
-      DB_PASSWORD: gs
-    command: >
-            /bin/sh -c "rm -f /etc/php/7.2/mods-available/opcache.ini 
-            && /usr/sbin/php-fpm7.2 -F -R"
 
   db:
     image: mysql:5.7.19
@@ -59,3 +50,9 @@ services:
       MYSQL_USER: gs
       MYSQL_PASSWORD: gs
       MYSQL_DATABASE: gs
+
+  redis:
+    image: redis:4.0.11-alpine
+    container_name: gs_redis
+    ports:
+      - "6379:6379"

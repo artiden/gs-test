@@ -2474,3 +2474,2625 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1538604641.4318
     'REQUEST_TIME' => 1538604641
 ]
+2018-10-09 13:52:20 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+    in /var/www/views/layouts/main.php:77
+    in /var/www/controllers/SiteController.php:64
+2018-10-09 13:52:20 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:52:16 [172.18.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'root'
+    'HOME' => '/root'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.4'
+    'REMOTE_PORT' => '53130'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539082335.839
+    'REQUEST_TIME' => 1539082335
+]
+2018-10-09 13:52:20 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+    in /var/www/views/layouts/main.php:77
+    in /var/www/controllers/SiteController.php:64
+2018-10-09 13:52:20 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:52:19 [172.18.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'root'
+    'HOME' => '/root'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.4'
+    'REMOTE_PORT' => '53134'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539082339.7269
+    'REQUEST_TIME' => 1539082339
+]
+2018-10-09 13:52:31 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gs.persons' doesn't exist in /var/www/vendor/yiisoft/yii2/db/Command.php:1258
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Command.php(1258): PDOStatement->execute()
+#1 /var/www/vendor/yiisoft/yii2/db/Command.php(1148): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 /var/www/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 /var/www/vendor/yiisoft/yii2/db/Query.php(237): yii\db\Command->queryAll()
+#4 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 /var/www/repositories/PersonRepository.php(52): yii\db\ActiveQuery->all()
+#6 /var/www/controllers/PersonController.php(39): app\repositories\PersonRepository->getSortedPersons(NULL, 'id')
+#7 [internal function]: app\controllers\PersonController->actionIndex()
+#8 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/index', Array)
+#12 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /var/www/web/index.php(12): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gs.persons' doesn't exist
+The SQL being executed was: SELECT * FROM `persons` ORDER BY `id` in /var/www/vendor/yiisoft/yii2/db/Schema.php:664
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /var/www/vendor/yiisoft/yii2/db/Command.php(1148): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 /var/www/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 /var/www/vendor/yiisoft/yii2/db/Query.php(237): yii\db\Command->queryAll()
+#4 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 /var/www/repositories/PersonRepository.php(52): yii\db\ActiveQuery->all()
+#6 /var/www/controllers/PersonController.php(39): app\repositories\PersonRepository->getSortedPersons(NULL, 'id')
+#7 [internal function]: app\controllers\PersonController->actionIndex()
+#8 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/index', Array)
+#12 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /var/www/web/index.php(12): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'gs.persons' doesn't exist
+)
+
+2018-10-09 13:52:31 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:52:31 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:52:29 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8e1b0cac50720616d7755a2ed9fa57cb'
+    '_csrf' => 'c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"d__4zTU1VR9YpT63BzsMmtLQbAim4WAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'root'
+    'HOME' => '/root'
+    'HTTP_COOKIE' => 'PHPSESSID=8e1b0cac50720616d7755a2ed9fa57cb; _csrf=c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22d__4zTU1VR9YpT63BzsMmtLQbAim4WAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.4'
+    'REMOTE_PORT' => '53144'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539082349.7387
+    'REQUEST_TIME' => 1539082349
+]
+2018-10-09 13:55:33 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+    in /var/www/views/layouts/main.php:77
+    in /var/www/controllers/PersonController.php:41
+2018-10-09 13:55:33 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:55:32 [172.18.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8e1b0cac50720616d7755a2ed9fa57cb'
+    '_csrf' => 'c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"d__4zTU1VR9YpT63BzsMmtLQbAim4WAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'root'
+    'HOME' => '/root'
+    'HTTP_COOKIE' => 'PHPSESSID=8e1b0cac50720616d7755a2ed9fa57cb; _csrf=c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22d__4zTU1VR9YpT63BzsMmtLQbAim4WAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '52628'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539082532.8938
+    'REQUEST_TIME' => 1539082532
+]
+2018-10-09 14:09:39 [172.18.0.1][-][-][error][ReflectionException] ReflectionException: Class yii\queue\redis\Queue does not exist in /var/www/vendor/yiisoft/yii2/di/Container.php:428
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/di/Container.php(428): ReflectionClass->__construct('yii\\queue\\redis...')
+#1 /var/www/vendor/yiisoft/yii2/di/Container.php(364): yii\di\Container->getDependencies('yii\\queue\\redis...')
+#2 /var/www/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\queue\\redis...', Array, Array)
+#3 /var/www/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yii\\queue\\redis...', Array, Array)
+#4 /var/www/vendor/yiisoft/yii2/di/ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#5 /var/www/vendor/yiisoft/yii2/base/Module.php(742): yii\di\ServiceLocator->get('queue', true)
+#6 /var/www/vendor/yiisoft/yii2/base/Application.php(313): yii\base\Module->get('queue')
+#7 /var/www/vendor/yiisoft/yii2/web/Application.php(69): yii\base\Application->bootstrap()
+#8 /var/www/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#9 /var/www/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\base\Application->init()
+#10 /var/www/vendor/yiisoft/yii2/base/Application.php(206): yii\base\BaseObject->__construct(Array)
+#11 /var/www/web/index.php(12): yii\base\Application->__construct(Array)
+#12 {main}
+2018-10-09 14:09:39 [172.18.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8e1b0cac50720616d7755a2ed9fa57cb'
+    '_csrf' => 'c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"d__4zTU1VR9YpT63BzsMmtLQbAim4WAe\";}'
+]
+
+$_SERVER = [
+    'USER' => 'root'
+    'HOME' => '/root'
+    'HTTP_COOKIE' => 'PHPSESSID=8e1b0cac50720616d7755a2ed9fa57cb; _csrf=c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22d__4zTU1VR9YpT63BzsMmtLQbAim4WAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '52842'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539083378.9464
+    'REQUEST_TIME' => 1539083378
+]
+2018-10-09 14:15:59 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+    in /var/www/views/layouts/main.php:77
+    in /var/www/controllers/PersonController.php:41
+2018-10-09 14:15:59 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 14:15:57 [172.18.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8e1b0cac50720616d7755a2ed9fa57cb'
+    '_csrf' => 'c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"d__4zTU1VR9YpT63BzsMmtLQbAim4WAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'root'
+    'HOME' => '/root'
+    'HTTP_COOKIE' => 'PHPSESSID=8e1b0cac50720616d7755a2ed9fa57cb; _csrf=c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22d__4zTU1VR9YpT63BzsMmtLQbAim4WAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '52878'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539083757.7644
+    'REQUEST_TIME' => 1539083757
+]
+2018-10-09 14:46:36 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+    in /var/www/views/layouts/main.php:77
+    in /var/www/controllers/PersonController.php:41
+2018-10-09 14:46:36 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 14:46:36 [172.18.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8e1b0cac50720616d7755a2ed9fa57cb'
+    '_csrf' => 'c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"d__4zTU1VR9YpT63BzsMmtLQbAim4WAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'root'
+    'HOME' => '/root'
+    'HTTP_COOKIE' => 'PHPSESSID=8e1b0cac50720616d7755a2ed9fa57cb; _csrf=c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22d__4zTU1VR9YpT63BzsMmtLQbAim4WAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '52894'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539085596.3539
+    'REQUEST_TIME' => 1539085596
+]
+2018-10-09 14:46:55 [172.18.0.1][-][-][error][Error] Error: Class 'app\controllers\Yii' not found in /var/www/controllers/PersonController.php:60
+Stack trace:
+#0 [internal function]: app\controllers\PersonController->actionSave()
+#1 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('save', Array)
+#4 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/save', Array)
+#5 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /var/www/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-10-09 14:46:55 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 14:46:55 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 14:46:54 [172.18.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'root'
+    'HOME' => '/root'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '52906'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/save'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539085614.8436
+    'REQUEST_TIME' => 1539085614
+]
+2018-10-09 14:50:13 [172.18.0.1][-][-][error][Error] Error: Class 'app\controllers\Yii' not found in /var/www/controllers/PersonController.php:60
+Stack trace:
+#0 [internal function]: app\controllers\PersonController->actionSave()
+#1 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('save', Array)
+#4 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/save', Array)
+#5 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /var/www/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-10-09 14:50:13 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 14:50:13 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 14:50:13 [172.18.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'root'
+    'HOME' => '/root'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '52910'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/save'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539085813.0129
+    'REQUEST_TIME' => 1539085813
+]
+2018-10-09 14:52:36 [172.18.0.1][-][-][error][Error] Error: Class 'app\controllers\SaveInfoJob' not found in /var/www/controllers/PersonController.php:60
+Stack trace:
+#0 [internal function]: app\controllers\PersonController->actionSave()
+#1 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('save', Array)
+#4 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/save', Array)
+#5 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /var/www/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-10-09 14:52:36 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 14:52:36 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 14:52:36 [172.18.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'root'
+    'HOME' => '/root'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '52914'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/save'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539085956.4129
+    'REQUEST_TIME' => 1539085956
+]
+2018-10-09 14:53:13 [172.18.0.1][-][-][error][yii\base\ErrorException:1] yii\base\ErrorException: Class 'app\jobs\Object' not found in /var/www/jobs/SaveInfoJob.php:7
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-10-09 14:53:13 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 14:53:12 [172.18.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'root'
+    'HOME' => '/root'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '52914'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/save'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539085992.8817
+    'REQUEST_TIME' => 1539085992
+]
+2018-10-09 14:53:41 [172.18.0.1][-][-][error][yii\base\ErrorException:1] yii\base\ErrorException: Class 'Object' not found in /var/www/jobs/SaveInfoJob.php:7
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-10-09 14:53:41 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 14:53:41 [172.18.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'root'
+    'HOME' => '/root'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '52914'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/save'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539086021.0532
+    'REQUEST_TIME' => 1539086021
+]
+2018-10-09 14:54:09 [172.18.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected 'implements' (T_IMPLEMENTS), expecting identifier (T_STRING) or namespace (T_NAMESPACE) or \\ (T_NS_SEPARATOR) in /var/www/jobs/SaveInfoJob.php:7
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\jobs\\SaveIn...')
+#1 /var/www/controllers/PersonController.php(61): spl_autoload_call('app\\jobs\\SaveIn...')
+#2 [internal function]: app\controllers\PersonController->actionSave()
+#3 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('save', Array)
+#6 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/save', Array)
+#7 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2018-10-09 14:54:09 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 14:54:09 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 14:54:08 [172.18.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'root'
+    'HOME' => '/root'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '52914'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/save'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539086048.8522
+    'REQUEST_TIME' => 1539086048
+]
+2018-10-09 14:54:36 [172.18.0.1][-][-][error][ArgumentCountError] ArgumentCountError: Too few arguments to function app\jobs\SaveInfoJob::__construct(), 3 passed in /var/www/controllers/PersonController.php on line 61 and exactly 4 expected in /var/www/jobs/SaveInfoJob.php:37
+Stack trace:
+#0 /var/www/controllers/PersonController.php(61): app\jobs\SaveInfoJob->__construct('Denys', 'Reveha', Array)
+#1 [internal function]: app\controllers\PersonController->actionSave()
+#2 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('save', Array)
+#5 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/save', Array)
+#6 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /var/www/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2018-10-09 14:54:36 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 14:54:36 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 14:54:36 [172.18.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'root'
+    'HOME' => '/root'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '52914'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/save'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539086076.2373
+    'REQUEST_TIME' => 1539086076
+]
+2018-10-09 15:18:12 [172.18.0.1][-][-][error][yii\redis\Connection] Failed to open redis DB connection (localhost:6379, database=0): 99 - Cannot assign requested address
+    in /var/www/controllers/PersonController.php:61
+2018-10-09 15:18:12 [172.18.0.1][-][-][error][yii\db\Exception] yii\db\Exception: Failed to open redis DB connection (localhost:6379, database=0): 99 - Cannot assign requested address in /var/www/vendor/yiisoft/yii2-redis/src/Connection.php:565
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2-redis/src/Connection.php(665): yii\redis\Connection->open()
+#1 /var/www/vendor/yiisoft/yii2-redis/src/Connection.php(630): yii\redis\Connection->executeCommand('INCR', Array)
+#2 /var/www/vendor/yiisoft/yii2-queue/src/drivers/redis/Queue.php(194): yii\redis\Connection->__call('incr', Array)
+#3 /var/www/vendor/yiisoft/yii2-queue/src/Queue.php(162): yii\queue\redis\Queue->pushMessage('O:20:"app\\jobs\\...', 300, 0, NULL)
+#4 /var/www/controllers/PersonController.php(61): yii\queue\Queue->push(Object(app\jobs\SaveInfoJob))
+#5 [internal function]: app\controllers\PersonController->actionSave()
+#6 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('save', Array)
+#9 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/save', Array)
+#10 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/web/index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Cannot assign requested address
+2018-10-09 15:18:12 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 15:18:12 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 15:18:11 [172.18.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'root'
+    'HOME' => '/root'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '52928'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/save'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539087491.6415
+    'REQUEST_TIME' => 1539087491
+]
+2018-10-09 15:20:57 [172.18.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: saveResult in /var/www/controllers/PersonController.php:65
+Stack trace:
+#0 /var/www/controllers/PersonController.php(65): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/var/www/contro...', 65, Array)
+#1 [internal function]: app\controllers\PersonController->actionSave()
+#2 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('save', Array)
+#5 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/save', Array)
+#6 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /var/www/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2018-10-09 15:20:57 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 15:20:57 [172.18.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'root'
+    'HOME' => '/root'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '52934'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/save'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539087657.1104
+    'REQUEST_TIME' => 1539087657
+]
+2018-10-09 15:21:53 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+    in /var/www/controllers/PersonController.php:66
+2018-10-09 15:21:53 [172.18.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'root'
+    'HOME' => '/root'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '52934'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/save'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539087713.6076
+    'REQUEST_TIME' => 1539087713
+]
+2018-10-09 15:22:58 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+    in /var/www/views/layouts/main.php:77
+    in /var/www/controllers/PersonController.php:42
+2018-10-09 15:22:58 [172.18.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 15:22:57 [172.18.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8e1b0cac50720616d7755a2ed9fa57cb'
+    '_csrf' => 'c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"d__4zTU1VR9YpT63BzsMmtLQbAim4WAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'root'
+    'HOME' => '/root'
+    'HTTP_COOKIE' => 'PHPSESSID=8e1b0cac50720616d7755a2ed9fa57cb; _csrf=c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22d__4zTU1VR9YpT63BzsMmtLQbAim4WAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '52944'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539087777.1994
+    'REQUEST_TIME' => 1539087777
+]
+2018-10-09 15:23:43 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "queue/listen". in /var/www/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('queue/listen', Array)
+#1 /var/www/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('queue/listen', Array)
+#2 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /var/www/yii(20): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "queue/listen". in /var/www/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('queue/listen', Array)
+#1 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /var/www/yii(20): yii\base\Application->run()
+#3 {main}
+2018-10-09 15:23:43 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DB_HOST' => 'db'
+    'HOSTNAME' => '487c191ef4a9'
+    'DB_NAME' => 'gs'
+    'TERM' => 'xterm'
+    'DB_DRIVER' => 'pdo_mysql'
+    'DB_PORT' => '3306'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/var/www'
+    'DB_PASSWORD' => 'gs'
+    'SHLVL' => '1'
+    'HOME' => '/root'
+    'DB_USER' => 'gs'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539087823.4766
+    'REQUEST_TIME' => 1539087823
+    'argv' => [
+        0 => 'yii'
+        1 => 'queue/listen'
+    ]
+    'argc' => 2
+]
+2018-10-09 15:24:16 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "queue/listen". in /var/www/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('queue/listen', Array)
+#1 /var/www/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('queue/listen', Array)
+#2 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /var/www/yii(20): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "queue/listen". in /var/www/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('queue/listen', Array)
+#1 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /var/www/yii(20): yii\base\Application->run()
+#3 {main}
+2018-10-09 15:24:16 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DB_HOST' => 'db'
+    'HOSTNAME' => '487c191ef4a9'
+    'DB_NAME' => 'gs'
+    'TERM' => 'xterm'
+    'DB_DRIVER' => 'pdo_mysql'
+    'DB_PORT' => '3306'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/var/www'
+    'DB_PASSWORD' => 'gs'
+    'SHLVL' => '1'
+    'HOME' => '/root'
+    'DB_USER' => 'gs'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539087856.4348
+    'REQUEST_TIME' => 1539087856
+    'argv' => [
+        0 => 'yii'
+        1 => 'queue/listen'
+    ]
+    'argc' => 2
+]
+2018-10-09 15:33:07 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: pcntl_signal() has been disabled for security reasons in /var/www/vendor/yiisoft/yii2-queue/src/cli/SignalLoop.php:76
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'pcntl_signal() ...', '/var/www/vendor...', 76, Array)
+#1 /var/www/vendor/yiisoft/yii2-queue/src/cli/SignalLoop.php(76): pcntl_signal(15, Object(Closure))
+#2 /var/www/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\queue\cli\SignalLoop->init()
+#3 /var/www/vendor/yiisoft/yii2-queue/src/cli/SignalLoop.php(61): yii\base\BaseObject->__construct(Array)
+#4 [internal function]: yii\queue\cli\SignalLoop->__construct(Object(yii\queue\redis\Queue), Array)
+#5 /var/www/vendor/yiisoft/yii2/di/Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#6 /var/www/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\queue\\cli\\S...', Array, Array)
+#7 /var/www/vendor/yiisoft/yii2/BaseYii.php(345): yii\di\Container->get('yii\\queue\\cli\\S...', Array)
+#8 /var/www/vendor/yiisoft/yii2-queue/src/cli/Queue.php(104): yii\BaseYii::createObject('yii\\queue\\cli\\S...', Array)
+#9 /var/www/vendor/yiisoft/yii2-queue/src/drivers/redis/Queue.php(68): yii\queue\cli\Queue->runWorker(Object(Closure))
+#10 /var/www/vendor/yiisoft/yii2-queue/src/drivers/redis/Command.php(76): yii\queue\redis\Queue->run(true, 3)
+#11 [internal function]: yii\queue\redis\Command->actionListen(3)
+#12 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('listen', Array)
+#15 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('listen', Array)
+#16 /var/www/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('queue/listen', Array)
+#17 /var/www/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('queue/listen', Array)
+#18 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /var/www/yii(20): yii\base\Application->run()
+#20 {main}
+2018-10-09 15:33:07 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DB_HOST' => 'db'
+    'HOSTNAME' => '487c191ef4a9'
+    'DB_NAME' => 'gs'
+    'TERM' => 'xterm'
+    'DB_DRIVER' => 'pdo_mysql'
+    'DB_PORT' => '3306'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/var/www'
+    'DB_PASSWORD' => 'gs'
+    'SHLVL' => '1'
+    'HOME' => '/root'
+    'DB_USER' => 'gs'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539088387.2946
+    'REQUEST_TIME' => 1539088387
+    'argv' => [
+        0 => 'yii'
+        1 => 'queue/listen'
+    ]
+    'argc' => 2
+]
+2018-10-09 15:40:03 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: pcntl_signal() has been disabled for security reasons in /var/www/vendor/yiisoft/yii2-queue/src/cli/SignalLoop.php:76
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'pcntl_signal() ...', '/var/www/vendor...', 76, Array)
+#1 /var/www/vendor/yiisoft/yii2-queue/src/cli/SignalLoop.php(76): pcntl_signal(15, Object(Closure))
+#2 /var/www/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\queue\cli\SignalLoop->init()
+#3 /var/www/vendor/yiisoft/yii2-queue/src/cli/SignalLoop.php(61): yii\base\BaseObject->__construct(Array)
+#4 [internal function]: yii\queue\cli\SignalLoop->__construct(Object(yii\queue\redis\Queue), Array)
+#5 /var/www/vendor/yiisoft/yii2/di/Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#6 /var/www/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\queue\\cli\\S...', Array, Array)
+#7 /var/www/vendor/yiisoft/yii2/BaseYii.php(345): yii\di\Container->get('yii\\queue\\cli\\S...', Array)
+#8 /var/www/vendor/yiisoft/yii2-queue/src/cli/Queue.php(104): yii\BaseYii::createObject('yii\\queue\\cli\\S...', Array)
+#9 /var/www/vendor/yiisoft/yii2-queue/src/drivers/redis/Queue.php(68): yii\queue\cli\Queue->runWorker(Object(Closure))
+#10 /var/www/vendor/yiisoft/yii2-queue/src/drivers/redis/Command.php(76): yii\queue\redis\Queue->run(true, 3)
+#11 [internal function]: yii\queue\redis\Command->actionListen(3)
+#12 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('listen', Array)
+#15 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('listen', Array)
+#16 /var/www/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('queue/listen', Array)
+#17 /var/www/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('queue/listen', Array)
+#18 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /var/www/yii(20): yii\base\Application->run()
+#20 {main}
+2018-10-09 15:40:03 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DB_HOST' => 'db'
+    'HOSTNAME' => '487c191ef4a9'
+    'DB_NAME' => 'gs'
+    'TERM' => 'xterm'
+    'DB_DRIVER' => 'pdo_mysql'
+    'DB_PORT' => '3306'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/var/www'
+    'DB_PASSWORD' => 'gs'
+    'SHLVL' => '1'
+    'HOME' => '/root'
+    'DB_USER' => 'gs'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/etc/php/7.2/fpm'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539088803.5325
+    'REQUEST_TIME' => 1539088803
+    'argv' => [
+        0 => 'yii'
+        1 => 'queue/listen'
+    ]
+    'argc' => 2
+]
+2018-10-09 15:40:18 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: pcntl_signal() has been disabled for security reasons in /var/www/vendor/yiisoft/yii2-queue/src/cli/SignalLoop.php:76
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'pcntl_signal() ...', '/var/www/vendor...', 76, Array)
+#1 /var/www/vendor/yiisoft/yii2-queue/src/cli/SignalLoop.php(76): pcntl_signal(15, Object(Closure))
+#2 /var/www/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\queue\cli\SignalLoop->init()
+#3 /var/www/vendor/yiisoft/yii2-queue/src/cli/SignalLoop.php(61): yii\base\BaseObject->__construct(Array)
+#4 [internal function]: yii\queue\cli\SignalLoop->__construct(Object(yii\queue\redis\Queue), Array)
+#5 /var/www/vendor/yiisoft/yii2/di/Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#6 /var/www/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\queue\\cli\\S...', Array, Array)
+#7 /var/www/vendor/yiisoft/yii2/BaseYii.php(345): yii\di\Container->get('yii\\queue\\cli\\S...', Array)
+#8 /var/www/vendor/yiisoft/yii2-queue/src/cli/Queue.php(104): yii\BaseYii::createObject('yii\\queue\\cli\\S...', Array)
+#9 /var/www/vendor/yiisoft/yii2-queue/src/drivers/redis/Queue.php(68): yii\queue\cli\Queue->runWorker(Object(Closure))
+#10 /var/www/vendor/yiisoft/yii2-queue/src/drivers/redis/Command.php(76): yii\queue\redis\Queue->run(true, 3)
+#11 [internal function]: yii\queue\redis\Command->actionListen(3)
+#12 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('listen', Array)
+#15 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('listen', Array)
+#16 /var/www/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('queue/listen', Array)
+#17 /var/www/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('queue/listen', Array)
+#18 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /var/www/yii(20): yii\base\Application->run()
+#20 {main}
+2018-10-09 15:40:18 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DB_HOST' => 'db'
+    'HOSTNAME' => '487c191ef4a9'
+    'DB_NAME' => 'gs'
+    'TERM' => 'xterm'
+    'DB_DRIVER' => 'pdo_mysql'
+    'DB_PORT' => '3306'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/var/www'
+    'DB_PASSWORD' => 'gs'
+    'SHLVL' => '1'
+    'HOME' => '/root'
+    'DB_USER' => 'gs'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/etc/php/7.2/fpm'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539088818.0527
+    'REQUEST_TIME' => 1539088818
+    'argv' => [
+        0 => 'yii'
+        1 => 'queue/listen'
+    ]
+    'argc' => 2
+]
+2018-10-09 15:46:29 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: pcntl_signal() has been disabled for security reasons in /var/www/vendor/yiisoft/yii2-queue/src/cli/SignalLoop.php:76
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'pcntl_signal() ...', '/var/www/vendor...', 76, Array)
+#1 /var/www/vendor/yiisoft/yii2-queue/src/cli/SignalLoop.php(76): pcntl_signal(15, Object(Closure))
+#2 /var/www/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\queue\cli\SignalLoop->init()
+#3 /var/www/vendor/yiisoft/yii2-queue/src/cli/SignalLoop.php(61): yii\base\BaseObject->__construct(Array)
+#4 [internal function]: yii\queue\cli\SignalLoop->__construct(Object(yii\queue\redis\Queue), Array)
+#5 /var/www/vendor/yiisoft/yii2/di/Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#6 /var/www/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\queue\\cli\\S...', Array, Array)
+#7 /var/www/vendor/yiisoft/yii2/BaseYii.php(345): yii\di\Container->get('yii\\queue\\cli\\S...', Array)
+#8 /var/www/vendor/yiisoft/yii2-queue/src/cli/Queue.php(104): yii\BaseYii::createObject('yii\\queue\\cli\\S...', Array)
+#9 /var/www/vendor/yiisoft/yii2-queue/src/drivers/redis/Queue.php(68): yii\queue\cli\Queue->runWorker(Object(Closure))
+#10 /var/www/vendor/yiisoft/yii2-queue/src/drivers/redis/Command.php(76): yii\queue\redis\Queue->run(true, 3)
+#11 [internal function]: yii\queue\redis\Command->actionListen(3)
+#12 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('listen', Array)
+#15 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('listen', Array)
+#16 /var/www/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('queue/listen', Array)
+#17 /var/www/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('queue/listen', Array)
+#18 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /var/www/yii(20): yii\base\Application->run()
+#20 {main}
+2018-10-09 15:46:29 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DB_HOST' => 'db'
+    'HOSTNAME' => '487c191ef4a9'
+    'DB_NAME' => 'gs'
+    'TERM' => 'xterm'
+    'DB_DRIVER' => 'pdo_mysql'
+    'DB_PORT' => '3306'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/var/www'
+    'DB_PASSWORD' => 'gs'
+    'SHLVL' => '1'
+    'HOME' => '/root'
+    'DB_USER' => 'gs'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/etc/php/7.2/fpm'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539089189.0354
+    'REQUEST_TIME' => 1539089189
+    'argv' => [
+        0 => 'yii'
+        1 => 'queue/listen'
+    ]
+    'argc' => 2
+]
+2018-10-09 15:50:04 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: pcntl_signal() has been disabled for security reasons in /var/www/vendor/yiisoft/yii2-queue/src/cli/SignalLoop.php:76
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'pcntl_signal() ...', '/var/www/vendor...', 76, Array)
+#1 /var/www/vendor/yiisoft/yii2-queue/src/cli/SignalLoop.php(76): pcntl_signal(15, Object(Closure))
+#2 /var/www/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\queue\cli\SignalLoop->init()
+#3 /var/www/vendor/yiisoft/yii2-queue/src/cli/SignalLoop.php(61): yii\base\BaseObject->__construct(Array)
+#4 [internal function]: yii\queue\cli\SignalLoop->__construct(Object(yii\queue\redis\Queue), Array)
+#5 /var/www/vendor/yiisoft/yii2/di/Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#6 /var/www/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\queue\\cli\\S...', Array, Array)
+#7 /var/www/vendor/yiisoft/yii2/BaseYii.php(345): yii\di\Container->get('yii\\queue\\cli\\S...', Array)
+#8 /var/www/vendor/yiisoft/yii2-queue/src/cli/Queue.php(104): yii\BaseYii::createObject('yii\\queue\\cli\\S...', Array)
+#9 /var/www/vendor/yiisoft/yii2-queue/src/drivers/redis/Queue.php(68): yii\queue\cli\Queue->runWorker(Object(Closure))
+#10 /var/www/vendor/yiisoft/yii2-queue/src/drivers/redis/Command.php(76): yii\queue\redis\Queue->run(true, 3)
+#11 [internal function]: yii\queue\redis\Command->actionListen(3)
+#12 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('listen', Array)
+#15 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('listen', Array)
+#16 /var/www/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('queue/listen', Array)
+#17 /var/www/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('queue/listen', Array)
+#18 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /var/www/yii(20): yii\base\Application->run()
+#20 {main}
+2018-10-09 15:50:04 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DB_HOST' => 'db'
+    'HOSTNAME' => '487c191ef4a9'
+    'DB_NAME' => 'gs'
+    'TERM' => 'xterm'
+    'DB_DRIVER' => 'pdo_mysql'
+    'DB_PORT' => '3306'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/var/www'
+    'DB_PASSWORD' => 'gs'
+    'SHLVL' => '1'
+    'HOME' => '/root'
+    'DB_USER' => 'gs'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/etc/php/7.2/fpm'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539089404.1777
+    'REQUEST_TIME' => 1539089404
+    'argv' => [
+        0 => 'yii'
+        1 => 'queue/listen'
+    ]
+    'argc' => 2
+]
+2018-10-09 13:31:50 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][error][yii\db\Exception] PDOException: could not find driver in /var/www/vendor/yiisoft/yii2/db/Connection.php:687
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Connection.php(687): PDO->__construct('mysql:host=db;d...', 'gs', 'gs', NULL)
+#1 /var/www/vendor/yiisoft/yii2/db/Connection.php(613): yii\db\Connection->createPdoInstance()
+#2 /var/www/vendor/yiisoft/yii2/db/Connection.php(996): yii\db\Connection->open()
+#3 /var/www/vendor/yiisoft/yii2/db/Connection.php(983): yii\db\Connection->getMasterPdo()
+#4 /var/www/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#5 /var/www/vendor/yiisoft/yii2/db/Command.php(1143): yii\db\Command->prepare(true)
+#6 /var/www/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/vendor/yiisoft/yii2/db/Query.php(237): yii\db\Command->queryAll()
+#8 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#9 /var/www/repositories/PersonRepository.php(52): yii\db\ActiveQuery->all()
+#10 /var/www/controllers/PersonController.php(40): app\repositories\PersonRepository->getSortedPersons(NULL, 'id')
+#11 [internal function]: app\controllers\PersonController->actionIndex()
+#12 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#15 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/', Array)
+#16 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 /var/www/web/index.php(12): yii\base\Application->run()
+#18 {main}
+
+Next yii\db\Exception: could not find driver in /var/www/vendor/yiisoft/yii2/db/Connection.php:624
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Connection.php(996): yii\db\Connection->open()
+#1 /var/www/vendor/yiisoft/yii2/db/Connection.php(983): yii\db\Connection->getMasterPdo()
+#2 /var/www/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#3 /var/www/vendor/yiisoft/yii2/db/Command.php(1143): yii\db\Command->prepare(true)
+#4 /var/www/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/vendor/yiisoft/yii2/db/Query.php(237): yii\db\Command->queryAll()
+#6 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#7 /var/www/repositories/PersonRepository.php(52): yii\db\ActiveQuery->all()
+#8 /var/www/controllers/PersonController.php(40): app\repositories\PersonRepository->getSortedPersons(NULL, 'id')
+#9 [internal function]: app\controllers\PersonController->actionIndex()
+#10 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#13 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/', Array)
+#14 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/web/index.php(12): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2018-10-09 13:31:50 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:31:50 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:31:50 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8e1b0cac50720616d7755a2ed9fa57cb'
+    '_csrf' => 'c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"d__4zTU1VR9YpT63BzsMmtLQbAim4WAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'b35d2a6bd6f8'
+    'DB_PORT' => '3306'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'DB_NAME' => 'gs'
+    'PHP_LDFLAGS' => '-Wl,-O1 -Wl,--hash-style=both -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_MD5' => ''
+    'PHP_VERSION' => '7.2.10'
+    'GPG_KEYS' => '1729F83938DA44E27BA0F4D3DBDB397470D12172 B1B44D8F021E4E2D6021E995DC9FF8D3EE5AF27F'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_ASC_URL' => 'https://secure.php.net/get/php-7.2.10.tar.xz.asc/from/this/mirror'
+    'PHP_URL' => 'https://secure.php.net/get/php-7.2.10.tar.xz/from/this/mirror'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DB_DRIVER' => 'pdo_mysql'
+    'DB_PASSWORD' => 'gs'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/var/www'
+    'PHP_SHA256' => '01c2154a3a8e3c0818acbdbc1a956832c828a0380ce6d1d14fea495ea21804f0'
+    'DB_HOST' => 'db'
+    'DB_USER' => 'gs'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'PHPSESSID=8e1b0cac50720616d7755a2ed9fa57cb; _csrf=c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22d__4zTU1VR9YpT63BzsMmtLQbAim4WAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '53012'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539091910.2324
+    'REQUEST_TIME' => 1539091910
+    'argv' => []
+    'argc' => 0
+]
+2018-10-09 13:34:34 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][error][yii\db\Exception] PDOException: could not find driver in /var/www/vendor/yiisoft/yii2/db/Connection.php:687
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Connection.php(687): PDO->__construct('mysql:host=db;d...', 'gs', 'gs', NULL)
+#1 /var/www/vendor/yiisoft/yii2/db/Connection.php(613): yii\db\Connection->createPdoInstance()
+#2 /var/www/vendor/yiisoft/yii2/db/Connection.php(996): yii\db\Connection->open()
+#3 /var/www/vendor/yiisoft/yii2/db/Connection.php(983): yii\db\Connection->getMasterPdo()
+#4 /var/www/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#5 /var/www/vendor/yiisoft/yii2/db/Command.php(1143): yii\db\Command->prepare(true)
+#6 /var/www/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/vendor/yiisoft/yii2/db/Query.php(237): yii\db\Command->queryAll()
+#8 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#9 /var/www/repositories/PersonRepository.php(52): yii\db\ActiveQuery->all()
+#10 /var/www/controllers/PersonController.php(40): app\repositories\PersonRepository->getSortedPersons(NULL, 'id')
+#11 [internal function]: app\controllers\PersonController->actionIndex()
+#12 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#15 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/', Array)
+#16 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 /var/www/web/index.php(12): yii\base\Application->run()
+#18 {main}
+
+Next yii\db\Exception: could not find driver in /var/www/vendor/yiisoft/yii2/db/Connection.php:624
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Connection.php(996): yii\db\Connection->open()
+#1 /var/www/vendor/yiisoft/yii2/db/Connection.php(983): yii\db\Connection->getMasterPdo()
+#2 /var/www/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#3 /var/www/vendor/yiisoft/yii2/db/Command.php(1143): yii\db\Command->prepare(true)
+#4 /var/www/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/vendor/yiisoft/yii2/db/Query.php(237): yii\db\Command->queryAll()
+#6 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#7 /var/www/repositories/PersonRepository.php(52): yii\db\ActiveQuery->all()
+#8 /var/www/controllers/PersonController.php(40): app\repositories\PersonRepository->getSortedPersons(NULL, 'id')
+#9 [internal function]: app\controllers\PersonController->actionIndex()
+#10 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#13 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/', Array)
+#14 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/web/index.php(12): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2018-10-09 13:34:34 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:34:34 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:34:33 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8e1b0cac50720616d7755a2ed9fa57cb'
+    '_csrf' => 'c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"d__4zTU1VR9YpT63BzsMmtLQbAim4WAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'a0056ff35c0d'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -Wl,--hash-style=both -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_MD5' => ''
+    'PHP_VERSION' => '7.2.10'
+    'GPG_KEYS' => '1729F83938DA44E27BA0F4D3DBDB397470D12172 B1B44D8F021E4E2D6021E995DC9FF8D3EE5AF27F'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_ASC_URL' => 'https://secure.php.net/get/php-7.2.10.tar.xz.asc/from/this/mirror'
+    'PHP_URL' => 'https://secure.php.net/get/php-7.2.10.tar.xz/from/this/mirror'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/var/www'
+    'PHP_SHA256' => '01c2154a3a8e3c0818acbdbc1a956832c828a0380ce6d1d14fea495ea21804f0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'PHPSESSID=8e1b0cac50720616d7755a2ed9fa57cb; _csrf=c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22d__4zTU1VR9YpT63BzsMmtLQbAim4WAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '53016'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539092073.8311
+    'REQUEST_TIME' => 1539092073
+    'argv' => []
+    'argc' => 0
+]
+2018-10-09 13:38:27 [172.18.0.1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Setting unknown property: yii\db\Connection::driver in /var/www/vendor/yiisoft/yii2/base/Component.php:209
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/BaseYii.php(546): yii\base\Component->__set('driver', 'PDO_MYSQL')
+#1 /var/www/vendor/yiisoft/yii2/base/BaseObject.php(107): yii\BaseYii::configure(Object(yii\db\Connection), Array)
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 /var/www/vendor/yiisoft/yii2/di/Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#4 /var/www/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\db\\Connecti...', Array, Array)
+#5 /var/www/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yii\\db\\Connecti...', Array, Array)
+#6 /var/www/vendor/yiisoft/yii2/di/ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#7 /var/www/vendor/yiisoft/yii2/base/Module.php(742): yii\di\ServiceLocator->get('db', true)
+#8 /var/www/vendor/yiisoft/yii2-debug/panels/DbPanel.php(345): yii\base\Module->get('db')
+#9 /var/www/vendor/yiisoft/yii2-debug/panels/DbPanel.php(296): yii\debug\panels\DbPanel->getDb()
+#10 /var/www/vendor/yiisoft/yii2-debug/Module.php(178): yii\debug\panels\DbPanel->isEnabled()
+#11 /var/www/vendor/yiisoft/yii2-debug/Module.php(149): yii\debug\Module->initPanels()
+#12 /var/www/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\debug\Module->init()
+#13 /var/www/vendor/yiisoft/yii2/base/Module.php(158): yii\base\BaseObject->__construct(Array)
+#14 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#15 /var/www/vendor/yiisoft/yii2/di/Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#16 /var/www/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#17 /var/www/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#18 /var/www/vendor/yiisoft/yii2/base/Module.php(427): yii\BaseYii::createObject(Array, Array)
+#19 /var/www/vendor/yiisoft/yii2/base/Application.php(315): yii\base\Module->getModule('debug')
+#20 /var/www/vendor/yiisoft/yii2/web/Application.php(69): yii\base\Application->bootstrap()
+#21 /var/www/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#22 /var/www/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\base\Application->init()
+#23 /var/www/vendor/yiisoft/yii2/base/Application.php(206): yii\base\BaseObject->__construct(Array)
+#24 /var/www/web/index.php(12): yii\base\Application->__construct(Array)
+#25 {main}
+2018-10-09 13:38:27 [172.18.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8e1b0cac50720616d7755a2ed9fa57cb'
+    '_csrf' => 'c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"d__4zTU1VR9YpT63BzsMmtLQbAim4WAe\";}'
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'a0056ff35c0d'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -Wl,--hash-style=both -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_MD5' => ''
+    'PHP_VERSION' => '7.2.10'
+    'GPG_KEYS' => '1729F83938DA44E27BA0F4D3DBDB397470D12172 B1B44D8F021E4E2D6021E995DC9FF8D3EE5AF27F'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_ASC_URL' => 'https://secure.php.net/get/php-7.2.10.tar.xz.asc/from/this/mirror'
+    'PHP_URL' => 'https://secure.php.net/get/php-7.2.10.tar.xz/from/this/mirror'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/var/www'
+    'PHP_SHA256' => '01c2154a3a8e3c0818acbdbc1a956832c828a0380ce6d1d14fea495ea21804f0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'PHPSESSID=8e1b0cac50720616d7755a2ed9fa57cb; _csrf=c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22d__4zTU1VR9YpT63BzsMmtLQbAim4WAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '53020'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539092307.6756
+    'REQUEST_TIME' => 1539092307
+    'argv' => []
+    'argc' => 0
+]
+2018-10-09 13:38:43 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][error][yii\db\Exception] PDOException: could not find driver in /var/www/vendor/yiisoft/yii2/db/Connection.php:687
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Connection.php(687): PDO->__construct('mysql:host=db;d...', 'gs', 'gs', NULL)
+#1 /var/www/vendor/yiisoft/yii2/db/Connection.php(613): yii\db\Connection->createPdoInstance()
+#2 /var/www/vendor/yiisoft/yii2/db/Connection.php(996): yii\db\Connection->open()
+#3 /var/www/vendor/yiisoft/yii2/db/Connection.php(983): yii\db\Connection->getMasterPdo()
+#4 /var/www/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#5 /var/www/vendor/yiisoft/yii2/db/Command.php(1143): yii\db\Command->prepare(true)
+#6 /var/www/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/vendor/yiisoft/yii2/db/Query.php(237): yii\db\Command->queryAll()
+#8 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#9 /var/www/repositories/PersonRepository.php(52): yii\db\ActiveQuery->all()
+#10 /var/www/controllers/PersonController.php(40): app\repositories\PersonRepository->getSortedPersons(NULL, 'id')
+#11 [internal function]: app\controllers\PersonController->actionIndex()
+#12 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#15 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/', Array)
+#16 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 /var/www/web/index.php(12): yii\base\Application->run()
+#18 {main}
+
+Next yii\db\Exception: could not find driver in /var/www/vendor/yiisoft/yii2/db/Connection.php:624
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Connection.php(996): yii\db\Connection->open()
+#1 /var/www/vendor/yiisoft/yii2/db/Connection.php(983): yii\db\Connection->getMasterPdo()
+#2 /var/www/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#3 /var/www/vendor/yiisoft/yii2/db/Command.php(1143): yii\db\Command->prepare(true)
+#4 /var/www/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/vendor/yiisoft/yii2/db/Query.php(237): yii\db\Command->queryAll()
+#6 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#7 /var/www/repositories/PersonRepository.php(52): yii\db\ActiveQuery->all()
+#8 /var/www/controllers/PersonController.php(40): app\repositories\PersonRepository->getSortedPersons(NULL, 'id')
+#9 [internal function]: app\controllers\PersonController->actionIndex()
+#10 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#13 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/', Array)
+#14 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/web/index.php(12): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2018-10-09 13:38:43 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:38:43 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:38:42 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8e1b0cac50720616d7755a2ed9fa57cb'
+    '_csrf' => 'c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"d__4zTU1VR9YpT63BzsMmtLQbAim4WAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'a0056ff35c0d'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -Wl,--hash-style=both -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_MD5' => ''
+    'PHP_VERSION' => '7.2.10'
+    'GPG_KEYS' => '1729F83938DA44E27BA0F4D3DBDB397470D12172 B1B44D8F021E4E2D6021E995DC9FF8D3EE5AF27F'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_ASC_URL' => 'https://secure.php.net/get/php-7.2.10.tar.xz.asc/from/this/mirror'
+    'PHP_URL' => 'https://secure.php.net/get/php-7.2.10.tar.xz/from/this/mirror'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/var/www'
+    'PHP_SHA256' => '01c2154a3a8e3c0818acbdbc1a956832c828a0380ce6d1d14fea495ea21804f0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'PHPSESSID=8e1b0cac50720616d7755a2ed9fa57cb; _csrf=c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22d__4zTU1VR9YpT63BzsMmtLQbAim4WAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '53020'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539092322.7912
+    'REQUEST_TIME' => 1539092322
+    'argv' => []
+    'argc' => 0
+]
+2018-10-09 13:47:01 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Connection::dsn cannot be empty. in /var/www/vendor/yiisoft/yii2/db/Connection.php:602
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Connection.php(996): yii\db\Connection->open()
+#1 /var/www/vendor/yiisoft/yii2/db/Connection.php(983): yii\db\Connection->getMasterPdo()
+#2 /var/www/vendor/yiisoft/yii2/db/Connection.php(945): yii\db\Connection->getSlavePdo()
+#3 /var/www/vendor/yiisoft/yii2/db/Connection.php(819): yii\db\Connection->getDriverName()
+#4 /var/www/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->getSchema()
+#5 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(316): yii\db\Connection->getQueryBuilder()
+#6 /var/www/vendor/yiisoft/yii2/db/Query.php(237): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#7 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#8 /var/www/repositories/PersonRepository.php(52): yii\db\ActiveQuery->all()
+#9 /var/www/controllers/PersonController.php(40): app\repositories\PersonRepository->getSortedPersons(NULL, 'id')
+#10 [internal function]: app\controllers\PersonController->actionIndex()
+#11 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#13 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#14 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/', Array)
+#15 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /var/www/web/index.php(12): yii\base\Application->run()
+#17 {main}
+2018-10-09 13:47:01 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:47:01 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:47:00 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8e1b0cac50720616d7755a2ed9fa57cb'
+    '_csrf' => 'c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"d__4zTU1VR9YpT63BzsMmtLQbAim4WAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'a0056ff35c0d'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -Wl,--hash-style=both -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_MD5' => ''
+    'PHP_VERSION' => '7.2.10'
+    'GPG_KEYS' => '1729F83938DA44E27BA0F4D3DBDB397470D12172 B1B44D8F021E4E2D6021E995DC9FF8D3EE5AF27F'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_ASC_URL' => 'https://secure.php.net/get/php-7.2.10.tar.xz.asc/from/this/mirror'
+    'PHP_URL' => 'https://secure.php.net/get/php-7.2.10.tar.xz/from/this/mirror'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/var/www'
+    'PHP_SHA256' => '01c2154a3a8e3c0818acbdbc1a956832c828a0380ce6d1d14fea495ea21804f0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'PHPSESSID=8e1b0cac50720616d7755a2ed9fa57cb; _csrf=c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22d__4zTU1VR9YpT63BzsMmtLQbAim4WAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '53028'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539092820.832
+    'REQUEST_TIME' => 1539092820
+    'argv' => []
+    'argc' => 0
+]
+2018-10-09 13:47:45 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][error][yii\base\NotSupportedException] yii\base\NotSupportedException: Connection does not support reading schema information for 'pdo_mysql' DBMS. in /var/www/vendor/yiisoft/yii2/db/Connection.php:827
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->getSchema()
+#1 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(316): yii\db\Connection->getQueryBuilder()
+#2 /var/www/vendor/yiisoft/yii2/db/Query.php(237): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#3 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#4 /var/www/repositories/PersonRepository.php(52): yii\db\ActiveQuery->all()
+#5 /var/www/controllers/PersonController.php(40): app\repositories\PersonRepository->getSortedPersons(NULL, 'id')
+#6 [internal function]: app\controllers\PersonController->actionIndex()
+#7 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#10 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/', Array)
+#11 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2018-10-09 13:47:45 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:47:45 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:47:45 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8e1b0cac50720616d7755a2ed9fa57cb'
+    '_csrf' => 'c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"d__4zTU1VR9YpT63BzsMmtLQbAim4WAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'a0056ff35c0d'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -Wl,--hash-style=both -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_MD5' => ''
+    'PHP_VERSION' => '7.2.10'
+    'GPG_KEYS' => '1729F83938DA44E27BA0F4D3DBDB397470D12172 B1B44D8F021E4E2D6021E995DC9FF8D3EE5AF27F'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_ASC_URL' => 'https://secure.php.net/get/php-7.2.10.tar.xz.asc/from/this/mirror'
+    'PHP_URL' => 'https://secure.php.net/get/php-7.2.10.tar.xz/from/this/mirror'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/var/www'
+    'PHP_SHA256' => '01c2154a3a8e3c0818acbdbc1a956832c828a0380ce6d1d14fea495ea21804f0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'PHPSESSID=8e1b0cac50720616d7755a2ed9fa57cb; _csrf=c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22d__4zTU1VR9YpT63BzsMmtLQbAim4WAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '53028'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539092865.3448
+    'REQUEST_TIME' => 1539092865
+    'argv' => []
+    'argc' => 0
+]
+2018-10-09 13:48:04 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][error][yii\db\Exception] PDOException: invalid data source name in /var/www/vendor/yiisoft/yii2/db/Connection.php:687
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Connection.php(687): PDO->__construct('host=db;dbname=...', 'gs', 'gs', NULL)
+#1 /var/www/vendor/yiisoft/yii2/db/Connection.php(613): yii\db\Connection->createPdoInstance()
+#2 /var/www/vendor/yiisoft/yii2/db/Connection.php(996): yii\db\Connection->open()
+#3 /var/www/vendor/yiisoft/yii2/db/Connection.php(983): yii\db\Connection->getMasterPdo()
+#4 /var/www/vendor/yiisoft/yii2/db/Connection.php(945): yii\db\Connection->getSlavePdo()
+#5 /var/www/vendor/yiisoft/yii2/db/Connection.php(819): yii\db\Connection->getDriverName()
+#6 /var/www/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->getSchema()
+#7 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(316): yii\db\Connection->getQueryBuilder()
+#8 /var/www/vendor/yiisoft/yii2/db/Query.php(237): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#9 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#10 /var/www/repositories/PersonRepository.php(52): yii\db\ActiveQuery->all()
+#11 /var/www/controllers/PersonController.php(40): app\repositories\PersonRepository->getSortedPersons(NULL, 'id')
+#12 [internal function]: app\controllers\PersonController->actionIndex()
+#13 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#14 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#15 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#16 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/', Array)
+#17 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /var/www/web/index.php(12): yii\base\Application->run()
+#19 {main}
+
+Next yii\db\Exception: invalid data source name in /var/www/vendor/yiisoft/yii2/db/Connection.php:624
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Connection.php(996): yii\db\Connection->open()
+#1 /var/www/vendor/yiisoft/yii2/db/Connection.php(983): yii\db\Connection->getMasterPdo()
+#2 /var/www/vendor/yiisoft/yii2/db/Connection.php(945): yii\db\Connection->getSlavePdo()
+#3 /var/www/vendor/yiisoft/yii2/db/Connection.php(819): yii\db\Connection->getDriverName()
+#4 /var/www/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->getSchema()
+#5 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(316): yii\db\Connection->getQueryBuilder()
+#6 /var/www/vendor/yiisoft/yii2/db/Query.php(237): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#7 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#8 /var/www/repositories/PersonRepository.php(52): yii\db\ActiveQuery->all()
+#9 /var/www/controllers/PersonController.php(40): app\repositories\PersonRepository->getSortedPersons(NULL, 'id')
+#10 [internal function]: app\controllers\PersonController->actionIndex()
+#11 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#13 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#14 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/', Array)
+#15 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /var/www/web/index.php(12): yii\base\Application->run()
+#17 {main}
+Additional Information:
+
+2018-10-09 13:48:04 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:48:04 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:48:04 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8e1b0cac50720616d7755a2ed9fa57cb'
+    '_csrf' => 'c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"d__4zTU1VR9YpT63BzsMmtLQbAim4WAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'a0056ff35c0d'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -Wl,--hash-style=both -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_MD5' => ''
+    'PHP_VERSION' => '7.2.10'
+    'GPG_KEYS' => '1729F83938DA44E27BA0F4D3DBDB397470D12172 B1B44D8F021E4E2D6021E995DC9FF8D3EE5AF27F'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_ASC_URL' => 'https://secure.php.net/get/php-7.2.10.tar.xz.asc/from/this/mirror'
+    'PHP_URL' => 'https://secure.php.net/get/php-7.2.10.tar.xz/from/this/mirror'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/var/www'
+    'PHP_SHA256' => '01c2154a3a8e3c0818acbdbc1a956832c828a0380ce6d1d14fea495ea21804f0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'PHPSESSID=8e1b0cac50720616d7755a2ed9fa57cb; _csrf=c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22d__4zTU1VR9YpT63BzsMmtLQbAim4WAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '53038'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539092884.1857
+    'REQUEST_TIME' => 1539092884
+    'argv' => []
+    'argc' => 0
+]
+2018-10-09 13:50:34 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][error][yii\base\NotSupportedException] yii\base\NotSupportedException: Connection does not support reading schema information for 'pdo_mysql' DBMS. in /var/www/vendor/yiisoft/yii2/db/Connection.php:827
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->getSchema()
+#1 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(316): yii\db\Connection->getQueryBuilder()
+#2 /var/www/vendor/yiisoft/yii2/db/Query.php(237): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#3 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#4 /var/www/repositories/PersonRepository.php(52): yii\db\ActiveQuery->all()
+#5 /var/www/controllers/PersonController.php(40): app\repositories\PersonRepository->getSortedPersons(NULL, 'id')
+#6 [internal function]: app\controllers\PersonController->actionIndex()
+#7 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#10 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/', Array)
+#11 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2018-10-09 13:50:34 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:50:34 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:50:34 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8e1b0cac50720616d7755a2ed9fa57cb'
+    '_csrf' => 'c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"d__4zTU1VR9YpT63BzsMmtLQbAim4WAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'a0056ff35c0d'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -Wl,--hash-style=both -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_MD5' => ''
+    'PHP_VERSION' => '7.2.10'
+    'GPG_KEYS' => '1729F83938DA44E27BA0F4D3DBDB397470D12172 B1B44D8F021E4E2D6021E995DC9FF8D3EE5AF27F'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_ASC_URL' => 'https://secure.php.net/get/php-7.2.10.tar.xz.asc/from/this/mirror'
+    'PHP_URL' => 'https://secure.php.net/get/php-7.2.10.tar.xz/from/this/mirror'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/var/www'
+    'PHP_SHA256' => '01c2154a3a8e3c0818acbdbc1a956832c828a0380ce6d1d14fea495ea21804f0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'PHPSESSID=8e1b0cac50720616d7755a2ed9fa57cb; _csrf=c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22d__4zTU1VR9YpT63BzsMmtLQbAim4WAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '53044'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539093034.3592
+    'REQUEST_TIME' => 1539093034
+    'argv' => []
+    'argc' => 0
+]
+2018-10-09 13:53:28 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][error][yii\db\Exception] PDOException: could not find driver in /var/www/vendor/yiisoft/yii2/db/Connection.php:687
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Connection.php(687): PDO->__construct('mysql:host=db;d...', 'gs', 'gs', NULL)
+#1 /var/www/vendor/yiisoft/yii2/db/Connection.php(613): yii\db\Connection->createPdoInstance()
+#2 /var/www/vendor/yiisoft/yii2/db/Connection.php(996): yii\db\Connection->open()
+#3 /var/www/vendor/yiisoft/yii2/db/Connection.php(983): yii\db\Connection->getMasterPdo()
+#4 /var/www/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#5 /var/www/vendor/yiisoft/yii2/db/Command.php(1143): yii\db\Command->prepare(true)
+#6 /var/www/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/vendor/yiisoft/yii2/db/Query.php(237): yii\db\Command->queryAll()
+#8 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#9 /var/www/repositories/PersonRepository.php(52): yii\db\ActiveQuery->all()
+#10 /var/www/controllers/PersonController.php(40): app\repositories\PersonRepository->getSortedPersons(NULL, 'id')
+#11 [internal function]: app\controllers\PersonController->actionIndex()
+#12 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#15 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/', Array)
+#16 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 /var/www/web/index.php(12): yii\base\Application->run()
+#18 {main}
+
+Next yii\db\Exception: could not find driver in /var/www/vendor/yiisoft/yii2/db/Connection.php:624
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Connection.php(996): yii\db\Connection->open()
+#1 /var/www/vendor/yiisoft/yii2/db/Connection.php(983): yii\db\Connection->getMasterPdo()
+#2 /var/www/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#3 /var/www/vendor/yiisoft/yii2/db/Command.php(1143): yii\db\Command->prepare(true)
+#4 /var/www/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/vendor/yiisoft/yii2/db/Query.php(237): yii\db\Command->queryAll()
+#6 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#7 /var/www/repositories/PersonRepository.php(52): yii\db\ActiveQuery->all()
+#8 /var/www/controllers/PersonController.php(40): app\repositories\PersonRepository->getSortedPersons(NULL, 'id')
+#9 [internal function]: app\controllers\PersonController->actionIndex()
+#10 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#13 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/', Array)
+#14 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/web/index.php(12): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2018-10-09 13:53:29 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:53:29 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:53:28 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8e1b0cac50720616d7755a2ed9fa57cb'
+    '_csrf' => 'c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"d__4zTU1VR9YpT63BzsMmtLQbAim4WAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'a0056ff35c0d'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -Wl,--hash-style=both -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_MD5' => ''
+    'PHP_VERSION' => '7.2.10'
+    'GPG_KEYS' => '1729F83938DA44E27BA0F4D3DBDB397470D12172 B1B44D8F021E4E2D6021E995DC9FF8D3EE5AF27F'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_ASC_URL' => 'https://secure.php.net/get/php-7.2.10.tar.xz.asc/from/this/mirror'
+    'PHP_URL' => 'https://secure.php.net/get/php-7.2.10.tar.xz/from/this/mirror'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/var/www'
+    'PHP_SHA256' => '01c2154a3a8e3c0818acbdbc1a956832c828a0380ce6d1d14fea495ea21804f0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'PHPSESSID=8e1b0cac50720616d7755a2ed9fa57cb; _csrf=c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22d__4zTU1VR9YpT63BzsMmtLQbAim4WAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '53052'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539093208.5743
+    'REQUEST_TIME' => 1539093208
+    'argv' => []
+    'argc' => 0
+]
+2018-10-09 13:53:45 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][error][yii\base\NotSupportedException] yii\base\NotSupportedException: Connection does not support reading schema information for '' DBMS. in /var/www/vendor/yiisoft/yii2/db/Connection.php:827
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->getSchema()
+#1 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(316): yii\db\Connection->getQueryBuilder()
+#2 /var/www/vendor/yiisoft/yii2/db/Query.php(237): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#3 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#4 /var/www/repositories/PersonRepository.php(52): yii\db\ActiveQuery->all()
+#5 /var/www/controllers/PersonController.php(40): app\repositories\PersonRepository->getSortedPersons(NULL, 'id')
+#6 [internal function]: app\controllers\PersonController->actionIndex()
+#7 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#10 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/', Array)
+#11 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2018-10-09 13:53:45 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:53:45 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:53:45 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8e1b0cac50720616d7755a2ed9fa57cb'
+    '_csrf' => 'c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"d__4zTU1VR9YpT63BzsMmtLQbAim4WAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'a0056ff35c0d'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -Wl,--hash-style=both -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_MD5' => ''
+    'PHP_VERSION' => '7.2.10'
+    'GPG_KEYS' => '1729F83938DA44E27BA0F4D3DBDB397470D12172 B1B44D8F021E4E2D6021E995DC9FF8D3EE5AF27F'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_ASC_URL' => 'https://secure.php.net/get/php-7.2.10.tar.xz.asc/from/this/mirror'
+    'PHP_URL' => 'https://secure.php.net/get/php-7.2.10.tar.xz/from/this/mirror'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/var/www'
+    'PHP_SHA256' => '01c2154a3a8e3c0818acbdbc1a956832c828a0380ce6d1d14fea495ea21804f0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'PHPSESSID=8e1b0cac50720616d7755a2ed9fa57cb; _csrf=c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22d__4zTU1VR9YpT63BzsMmtLQbAim4WAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '53052'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539093225.2083
+    'REQUEST_TIME' => 1539093225
+    'argv' => []
+    'argc' => 0
+]
+2018-10-09 13:58:15 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][error][yii\base\NotSupportedException] yii\base\NotSupportedException: Connection does not support reading schema information for 'pdo_mysql' DBMS. in /var/www/vendor/yiisoft/yii2/db/Connection.php:827
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->getSchema()
+#1 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(316): yii\db\Connection->getQueryBuilder()
+#2 /var/www/vendor/yiisoft/yii2/db/Query.php(237): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#3 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#4 /var/www/repositories/PersonRepository.php(52): yii\db\ActiveQuery->all()
+#5 /var/www/controllers/PersonController.php(40): app\repositories\PersonRepository->getSortedPersons(NULL, 'id')
+#6 [internal function]: app\controllers\PersonController->actionIndex()
+#7 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#10 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/', Array)
+#11 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2018-10-09 13:58:15 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:58:15 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:58:14 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8e1b0cac50720616d7755a2ed9fa57cb'
+    '_csrf' => 'c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"d__4zTU1VR9YpT63BzsMmtLQbAim4WAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'a0056ff35c0d'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -Wl,--hash-style=both -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_MD5' => ''
+    'PHP_VERSION' => '7.2.10'
+    'GPG_KEYS' => '1729F83938DA44E27BA0F4D3DBDB397470D12172 B1B44D8F021E4E2D6021E995DC9FF8D3EE5AF27F'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_ASC_URL' => 'https://secure.php.net/get/php-7.2.10.tar.xz.asc/from/this/mirror'
+    'PHP_URL' => 'https://secure.php.net/get/php-7.2.10.tar.xz/from/this/mirror'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/var/www'
+    'PHP_SHA256' => '01c2154a3a8e3c0818acbdbc1a956832c828a0380ce6d1d14fea495ea21804f0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'PHPSESSID=8e1b0cac50720616d7755a2ed9fa57cb; _csrf=c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22d__4zTU1VR9YpT63BzsMmtLQbAim4WAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '53062'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539093494.7265
+    'REQUEST_TIME' => 1539093494
+    'argv' => []
+    'argc' => 0
+]
+2018-10-09 13:58:41 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][error][yii\db\Exception] PDOException: could not find driver in /var/www/vendor/yiisoft/yii2/db/Connection.php:687
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Connection.php(687): PDO->__construct('mysql:host=db;d...', 'gs', 'gs', NULL)
+#1 /var/www/vendor/yiisoft/yii2/db/Connection.php(613): yii\db\Connection->createPdoInstance()
+#2 /var/www/vendor/yiisoft/yii2/db/Connection.php(996): yii\db\Connection->open()
+#3 /var/www/vendor/yiisoft/yii2/db/Connection.php(983): yii\db\Connection->getMasterPdo()
+#4 /var/www/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#5 /var/www/vendor/yiisoft/yii2/db/Command.php(1143): yii\db\Command->prepare(true)
+#6 /var/www/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/vendor/yiisoft/yii2/db/Query.php(237): yii\db\Command->queryAll()
+#8 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#9 /var/www/repositories/PersonRepository.php(52): yii\db\ActiveQuery->all()
+#10 /var/www/controllers/PersonController.php(40): app\repositories\PersonRepository->getSortedPersons(NULL, 'id')
+#11 [internal function]: app\controllers\PersonController->actionIndex()
+#12 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#15 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/', Array)
+#16 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 /var/www/web/index.php(12): yii\base\Application->run()
+#18 {main}
+
+Next yii\db\Exception: could not find driver in /var/www/vendor/yiisoft/yii2/db/Connection.php:624
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Connection.php(996): yii\db\Connection->open()
+#1 /var/www/vendor/yiisoft/yii2/db/Connection.php(983): yii\db\Connection->getMasterPdo()
+#2 /var/www/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#3 /var/www/vendor/yiisoft/yii2/db/Command.php(1143): yii\db\Command->prepare(true)
+#4 /var/www/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/vendor/yiisoft/yii2/db/Query.php(237): yii\db\Command->queryAll()
+#6 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#7 /var/www/repositories/PersonRepository.php(52): yii\db\ActiveQuery->all()
+#8 /var/www/controllers/PersonController.php(40): app\repositories\PersonRepository->getSortedPersons(NULL, 'id')
+#9 [internal function]: app\controllers\PersonController->actionIndex()
+#10 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#13 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('person/', Array)
+#14 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/web/index.php(12): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2018-10-09 13:58:41 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:58:41 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.18.0.1
+2018-10-09 13:58:40 [172.18.0.1][-][8e1b0cac50720616d7755a2ed9fa57cb][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8e1b0cac50720616d7755a2ed9fa57cb'
+    '_csrf' => 'c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"d__4zTU1VR9YpT63BzsMmtLQbAim4WAe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'a0056ff35c0d'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PHP_LDFLAGS' => '-Wl,-O1 -Wl,--hash-style=both -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_MD5' => ''
+    'PHP_VERSION' => '7.2.10'
+    'GPG_KEYS' => '1729F83938DA44E27BA0F4D3DBDB397470D12172 B1B44D8F021E4E2D6021E995DC9FF8D3EE5AF27F'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2'
+    'PHP_ASC_URL' => 'https://secure.php.net/get/php-7.2.10.tar.xz.asc/from/this/mirror'
+    'PHP_URL' => 'https://secure.php.net/get/php-7.2.10.tar.xz/from/this/mirror'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/var/www'
+    'PHP_SHA256' => '01c2154a3a8e3c0818acbdbc1a956832c828a0380ce6d1d14fea495ea21804f0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'PHPSESSID=8e1b0cac50720616d7755a2ed9fa57cb; _csrf=c8f69716f3187955d957295765a74b7a57714b874c3ac6ba0885bd5638190173a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22d__4zTU1VR9YpT63BzsMmtLQbAim4WAe%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'gs.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.5'
+    'REMOTE_PORT' => '53062'
+    'REMOTE_ADDR' => '172.18.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/person/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539093520.6974
+    'REQUEST_TIME' => 1539093520
+    'argv' => []
+    'argc' => 0
+]

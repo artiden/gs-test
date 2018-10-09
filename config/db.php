@@ -2,13 +2,9 @@
 
 return [
     'class' => 'yii\db\Connection',
+    //'drivername' => 'pdo_mysql',
     'dsn' => 'mysql:host=db;dbname=gs',
     'username' => 'gs',
     'password' => 'gs',
     'charset' => 'utf8',
-
-    // Schema cache options (for production environment)
-    //'enableSchemaCache' => true,
-    //'schemaCacheDuration' => 60,
-    //'schemaCache' => 'cache',
 ];
